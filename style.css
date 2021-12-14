@@ -1,3 +1,29 @@
+nav {
+  list-style-type: none;
+  background-color: #3333;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #2337;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
 body {
-  background-color: salmon;
+  background-color: #D3F9B5;
 }
